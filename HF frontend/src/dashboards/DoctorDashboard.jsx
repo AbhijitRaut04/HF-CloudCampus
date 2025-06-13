@@ -5,8 +5,8 @@ function DoctorDashboard() {
     <div style={{ display: 'flex' }}>
       <nav style={styles.sidebar}>
         <h3>Doctor Panel</h3>
-        <Link to="elections" style={styles.link}>Elections</Link>
-        <Link to="cheating-records" style={styles.link}>Cheating Records</Link>
+        {/* <Link to="elections" style={styles.link}>Elections</Link> */}
+        {/* <Link to="cheating-records" style={styles.link}>Cheating Records</Link> */}
         <Link to="applications" style={styles.link}>Doctor Applications</Link>
         <Link to="profile" style={styles.link}>Profile</Link>
       </nav>

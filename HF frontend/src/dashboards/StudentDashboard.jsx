@@ -33,7 +33,7 @@ const navLinks = [
   { path: 'cheating-records', label: '⚠️ Cheating Records' },
   { path: 'applications', label: '📄 Student Applications' },
   { path: 'profile', label: '👤 Profile' },
-  { path: 'notices', label: '📢 Notices' },
+  { path: 'notifications', label: '📢 Notifications' },
 ];
 
 const styles = {

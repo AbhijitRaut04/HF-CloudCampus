@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const Election = () => {
-  const durationInSeconds = 60;
+  const durationInSeconds = 10;
   const [isElectionOver, setIsElectionOver] = useState(false);
   const [votes, setVotes] = useState({ 1: 0, 2: 0, 3: 0 });
   const [hasVoted, setHasVoted] = useState(false);
